@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        .change{
+            width: 290px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="table">
+            <table border="1">
+                <tr>
+                    <th>First Name</th>
+                    <td><input class="change" type="text"></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input class="change" type="text"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input class="change" type="email"></td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input class="change" type="password"></td>
+                </tr>
+                <tr>
+                    <th>Re-enter Password</th>
+                    <td><input class="change" type="password"></td>
+                </tr>
+                <tr>
+                    <th rowspan="2" class="gender">Gender</th>
+                    <td><input type="radio" name="gender">
+                        <label>Male</label>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">
+                        <label>Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input class="change" type="number"></td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input class="change" type="number"></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><textarea class="change" name="address" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input class="change" type="text"></td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td>
+                        <select name="country" id="country">
+                            <option value="select">Select your country</option>
+                            <option value="Japan">Japan</option>
+                            <option value="India">India</option>
+                            <option value="China">China</option>
+                            <option value="Pakistan">Pakistan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Languages Known</th>
+                    <td>
+                        <input type="checkbox">
+                        <label for="english">English</label>
+                        <input type="checkbox">
+                        <label for="kannada">Kannada</label>
+                        <input type="checkbox">
+                        <label for="hindi">Hindi</label>
+                        <input type="checkbox">
+                        <label for="telugu">Telugu</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox">
+                        <label for="">Hereby I declare all the given details are true</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label style="display: flex; justify-content: right;">Login in to <a href="#">Ethnus</a>
+                            website</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <button style="margin-left: 100px;">Register</button>
+    </div>
+</body>
+
+</html>
